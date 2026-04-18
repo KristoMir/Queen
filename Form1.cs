@@ -16,25 +16,15 @@ namespace WindowsFormsSimple
         {
             InitializeComponent();
         }
-
+        
         private void exitButton_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            
-        }
-
         private void pictureBox1_DoubleClick(object sender, EventArgs e)
         {
             clickPicture.Visible = true;
-        }
-
-        private void Form1_MouseDoubleClick(object sender, MouseEventArgs e)
-        {
-            
         }
 
         private void clickLabel_MouseDoubleClick(object sender, MouseEventArgs e)
@@ -50,6 +40,8 @@ namespace WindowsFormsSimple
         private void clickPicture_DoubleClick(object sender, EventArgs e)
         {
             clickPicture.Visible = false;
+            var newvar = new Class1();
+            newvar.Name = "";
         }
 
         private void clickLabel_Click(object sender, EventArgs e)
