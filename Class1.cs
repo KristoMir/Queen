@@ -10,4 +10,8 @@ namespace WindowsFormsSimple
     {
         public string Name { get; set; }
     }
+    public void DoSomething()
+        {
+            //Фокус
+        }
 }
